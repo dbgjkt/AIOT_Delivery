@@ -1,0 +1,16 @@
+user	password
+
+admin	admin1
+
+Alice	alice1
+Bob 	bob12
+Carlos	carlos1
+Diana	diana1
+Tracy	tracy1
+Angela	angela1
+Jeremy	jeremy1
+Bingo	bingo1
+Jeff	jeff1
+Charles	charles1
+Lucas	lucas1
+Issac	issac1

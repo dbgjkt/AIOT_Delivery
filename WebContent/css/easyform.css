@@ -1,0 +1,38 @@
+body {
+    background-color: #fdf5e6;
+}
+
+.container {
+    width: 100vw;
+    text-align: center;
+}
+
+.container .input,.output {
+    display: inline-block;
+    vertical-align: top;
+}
+
+table.form_input {
+    border-collapse: collapse;
+    text-align: left;
+}
+
+table.table_output {
+    border: 1px solid;
+    border-collapse: collapse;
+    text-align: left;
+    margin-right: 20px;
+}
+
+table.table_output tr td {
+    border: 1px solid;
+}
+
+table.table_output tr th {
+    background-color:#a8fefa;
+    border: 1px solid;
+}
+
+table tr th,td {
+    padding: 3px;
+}

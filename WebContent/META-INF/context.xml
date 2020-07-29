@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xml>
+<Context>
+    <Resource name="jdbc/servdb"
+              type="javax.sql.DataSource"
+              validationQuery="select 1"
+              url="jdbc:mysql://aiot06-04nexrover.czvz6zc4annl.ap-northeast-1.rds.amazonaws.com:3306/aiot_delivery?serverTimezone=UTC"
+              poolPreparedStatements="true"
+              username="pi"
+              password="raspberry"
+              maxWaitMillis="5000"
+              maxTotal="120"
+              maxIdle="5"
+              initialSize="5"
+              driverClassName="com.mysql.cj.jdbc.Driver"
+              auth="Container"/>
+</Context>

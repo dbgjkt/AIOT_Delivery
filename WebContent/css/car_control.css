@@ -1,0 +1,70 @@
+* {
+	box-sizing: border-box;
+	font-family
+}
+
+.img {
+    vertical-align: middle;
+}
+
+/* Container for flexboxes */
+section {
+	display: -webkit-flex;
+	display: flex;
+}
+
+/* Style the navigation menu */
+nav {
+	-webkit-flex: 1;
+	-ms-flex: 1;
+	flex: 7.5;
+	background: transparent;
+	padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+/* Style the content */
+article {
+	-webkit-flex: 3;
+	-ms-flex: 3;
+	flex: 3;
+	background-color: transparent;
+	padding: 10px;
+}
+
+/* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+@media ( max-width : 600px) {
+	section {
+		-webkit-flex-direction: column;
+		flex-direction: column;
+	}
+}
+#wrapper #content-wrapper #content {
+    flex: 1 0 auto;
+}
+
+iframe.car-camera {
+    border: 2px solid blue;
+    width: 800px;
+    height: 600px;
+    overflow: hidden;
+}
+
+table .title {
+    padding: 5px;
+}
+
+span.mode {
+    width: 100px;
+    height: 50px;
+    font-size: 200%;
+}
+
+span.mode-on {
+    background-color: yellow;
+}
